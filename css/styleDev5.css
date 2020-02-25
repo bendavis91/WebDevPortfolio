@@ -1,0 +1,77 @@
+.fullWidth {
+  width: fixed;
+  background-color: #66bb6a;
+  margin: auto;
+  height: 100px;
+  border: solid 1px black;
+  position: relative;
+}
+.image {
+  position: absolute;
+  float: left;
+}
+h1{
+  text-align: left;
+  margin-left: 200px;
+}
+
+.rowOne {
+  height: 50px;
+  width: 25%;
+  background-color: orange;
+  padding: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border: solid 2px black;
+  float: left;
+  text-align: center;
+}
+
+.rowTwo {
+  height: 50px;
+  width: 380px;
+  padding: 50px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  background-color: #64b5f6;
+  border: solid 2px black;
+  float: left;
+  text-align: center;
+}
+
+.columnDiv {
+  height: 50px;
+  width: 380px;
+  padding: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  background-color: #b0bec5;
+  border: solid 2px blue;
+  clear: left;
+  text-align: center;
+}
+/*.floatingBox {
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+  height: 125px;
+  width: 225px;
+  padding: 10px;
+  background: #a5d6a7;
+  border: 2px solid black;
+}*/
+footer{
+  margin-left: 10px;
+}
+ul li {
+  display: inline;
+}
+.page-item{
+  padding: 5px;
+}
+.pagination{
+  text-align: center;
+}

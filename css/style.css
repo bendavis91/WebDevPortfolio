@@ -1,0 +1,38 @@
+body {
+  background-color: #420000;
+  background-image: url("../img/asfalt-light.png");
+  /*Background texture image*/
+}
+.container {
+  position: relative;
+  display: flex; /* or inline-flex */
+  flex-direction: column;
+}
+.container > div {
+  background-color: #607D8B;
+  background-image: url('data:image/svg+xml,%3Csvg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="%239C92AC" fill-opacity="0.4" fill-rule="evenodd"%3E%3Cpath d="M0 40L40 0H20L0 20M40 40V20L20 40"/%3E%3C/g%3E%3C/svg%3E');
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+}
+
+img.rounded-corners {
+
+  border-radius: 30px;
+
+}
+
+h1,
+h2 {
+  font-family: "Lacquer"; /*google font*/
+}
+footer {
+  margin-left: 10px;
+}
+
+.page-item {
+  padding: 5px;
+}
+.pagination {
+  text-align: left;
+}
